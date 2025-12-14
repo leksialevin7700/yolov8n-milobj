@@ -1,0 +1,70 @@
+{
+  "model_size": {
+    "file_size_mb": 21.46,
+    "model_size_mb": 42.5,
+    "total_parameters": 11140244,
+    "trainable_parameters": 0,
+    "model_name": "best"
+  },
+  "cpu_benchmarks": [
+    {
+      "imgsz": 640,
+      "avg_time_ms": 934.55,
+      "std_time_ms": 222.0,
+      "fps": 1.07,
+      "min_time_ms": 566.93,
+      "max_time_ms": 1511.66,
+      "peak_memory_mb": 23.78
+    },
+    {
+      "imgsz": 832,
+      "avg_time_ms": 1555.33,
+      "std_time_ms": 210.18,
+      "fps": 0.64,
+      "min_time_ms": 1173.16,
+      "max_time_ms": 1954.04,
+      "peak_memory_mb": 40.1
+    },
+    {
+      "imgsz": 1024,
+      "avg_time_ms": 3534.14,
+      "std_time_ms": 814.35,
+      "fps": 0.28,
+      "min_time_ms": 2166.72,
+      "max_time_ms": 5428.19,
+      "peak_memory_mb": 42.43
+    },
+    {
+      "imgsz": 1280,
+      "avg_time_ms": 4982.1,
+      "std_time_ms": 7148.79,
+      "fps": 0.2,
+      "min_time_ms": 2270.66,
+      "max_time_ms": 35829.67,
+      "peak_memory_mb": 29.4
+    }
+  ],
+  "feasibility": {
+    "model_size_ok": true,
+    "speed_ok": true,
+    "latency_ok": true,
+    "memory_ok": true,
+    "recommended_imgsz": 640,
+    "recommended_fps": 1.07,
+    "recommended_latency_ms": 934.55,
+    "cpu_class_feasible": true
+  },
+  "cpu_class_criteria": {
+    "max_model_size_mb": 100,
+    "target_fps": 1.0,
+    "max_memory_mb": 500,
+    "target_latency_ms": 1000
+  },
+  "system_info": {
+    "cpu": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "cpu_cores_physical": 10,
+    "cpu_cores_logical": 12,
+    "ram_gb": 15.7,
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

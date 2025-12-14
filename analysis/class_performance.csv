@@ -1,0 +1,13 @@
+Class ID,Class Name,AP@50,AP@50-95,Train Samples,Val Samples,Total Samples,Performance,Sample Status
+10,military_aircraft,0.0,0.6284,3510,1063,4573,Good,Adequate
+2,military_tank,0.0,0.5039,7822,1787,9609,Good,Adequate
+4,military_vehicle,0.0,0.3716,947,307,1254,Fair,Adequate
+3,military_truck,0.0,0.3506,623,148,771,Fair,Adequate
+11,military_warship,0.0,0.2375,923,0,923,Poor,Adequate
+6,soldier,0.0,0.2364,2991,745,3736,Poor,Adequate
+1,weapon,0.0,0.1565,541,358,899,Poor,Adequate
+0,camouflage_soldier,0.0,0.1545,2070,510,2580,Poor,Adequate
+7,civilian_vehicle,0.0,0.1496,270,42,312,Poor,Adequate
+8,military_artillery,0.0,0.0609,239,117,356,Very Poor,Adequate
+5,civilian,0.0,0.0,18,1,19,Very Poor,Low
+9,trench,0.0,0.0,2,3,5,Very Poor,Critically Low

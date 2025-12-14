@@ -1,0 +1,6 @@
+# Ignore model checkpoints and output files
+runs/
+*.pt
+*.onnx
+*.engine
+*.mp4

@@ -1,0 +1,18 @@
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision
+opencv-python-headless
+albumentations
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+pyyaml
+scikit-learn
+pycocotools
+imgaug
+
+
+# optional (for visualization / debugging)
+fiftyone

@@ -1,0 +1,148 @@
+{
+  "overall_metrics": {
+    "mAP50": 0.3984860019550892,
+    "mAP50_95": 0.23749326010251398,
+    "precision": 0.6752812361450748,
+    "recall": 0.3849273861492444
+  },
+  "per_class_metrics": [
+    {
+      "Class ID": 0,
+      "Class Name": "camouflage_soldier",
+      "AP@50": 0.0,
+      "AP@50-95": 0.1545,
+      "Train Samples": 2070,
+      "Val Samples": 510,
+      "Total Samples": 2580,
+      "Performance": "Poor",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 1,
+      "Class Name": "weapon",
+      "AP@50": 0.0,
+      "AP@50-95": 0.1565,
+      "Train Samples": 541,
+      "Val Samples": 358,
+      "Total Samples": 899,
+      "Performance": "Poor",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 2,
+      "Class Name": "military_tank",
+      "AP@50": 0.0,
+      "AP@50-95": 0.5039,
+      "Train Samples": 7822,
+      "Val Samples": 1787,
+      "Total Samples": 9609,
+      "Performance": "Good",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 3,
+      "Class Name": "military_truck",
+      "AP@50": 0.0,
+      "AP@50-95": 0.3506,
+      "Train Samples": 623,
+      "Val Samples": 148,
+      "Total Samples": 771,
+      "Performance": "Fair",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 4,
+      "Class Name": "military_vehicle",
+      "AP@50": 0.0,
+      "AP@50-95": 0.3716,
+      "Train Samples": 947,
+      "Val Samples": 307,
+      "Total Samples": 1254,
+      "Performance": "Fair",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 5,
+      "Class Name": "civilian",
+      "AP@50": 0.0,
+      "AP@50-95": 0.0,
+      "Train Samples": 18,
+      "Val Samples": 1,
+      "Total Samples": 19,
+      "Performance": "Very Poor",
+      "Sample Status": "Low"
+    },
+    {
+      "Class ID": 6,
+      "Class Name": "soldier",
+      "AP@50": 0.0,
+      "AP@50-95": 0.2364,
+      "Train Samples": 2991,
+      "Val Samples": 745,
+      "Total Samples": 3736,
+      "Performance": "Poor",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 7,
+      "Class Name": "civilian_vehicle",
+      "AP@50": 0.0,
+      "AP@50-95": 0.1496,
+      "Train Samples": 270,
+      "Val Samples": 42,
+      "Total Samples": 312,
+      "Performance": "Poor",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 8,
+      "Class Name": "military_artillery",
+      "AP@50": 0.0,
+      "AP@50-95": 0.0609,
+      "Train Samples": 239,
+      "Val Samples": 117,
+      "Total Samples": 356,
+      "Performance": "Very Poor",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 9,
+      "Class Name": "trench",
+      "AP@50": 0.0,
+      "AP@50-95": 0.0,
+      "Train Samples": 2,
+      "Val Samples": 3,
+      "Total Samples": 5,
+      "Performance": "Very Poor",
+      "Sample Status": "Critically Low"
+    },
+    {
+      "Class ID": 10,
+      "Class Name": "military_aircraft",
+      "AP@50": 0.0,
+      "AP@50-95": 0.6284,
+      "Train Samples": 3510,
+      "Val Samples": 1063,
+      "Total Samples": 4573,
+      "Performance": "Good",
+      "Sample Status": "Adequate"
+    },
+    {
+      "Class ID": 11,
+      "Class Name": "military_warship",
+      "AP@50": 0.0,
+      "AP@50-95": 0.2375,
+      "Train Samples": 923,
+      "Val Samples": 0,
+      "Total Samples": 923,
+      "Performance": "Poor",
+      "Sample Status": "Adequate"
+    }
+  ],
+  "recommendations": {
+    "remove_classes": [
+      "trench"
+    ],
+    "strong_classes": []
+  }
+}
